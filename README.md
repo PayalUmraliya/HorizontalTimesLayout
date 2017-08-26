@@ -1,4 +1,4 @@
-## HorizontalTimesLayout
+# HorizontalTimesLayout
 
 TO DISPLAY TIME SLOTS IN 24 HOUR FORMAT
 
@@ -6,7 +6,7 @@ PROJECT CONTAINS IDEA TO DEVELOP A CALENDAR TYPE LAYOUT USING TABLEVIEW IN WHICH
 
 **PROJECT EXAMPLE SHOWING LIST OF RESOURCES USAGE IN 24 HOUR FORMAT.**
 
-Sample project output
+###### Sample project output
 
 <img src="https://github.com/PayalUmraliya/HorizontalTimesLayout/blob/master/pucalender.gif" width="320" height="564"/>
 
@@ -27,11 +27,13 @@ Above method will add event with different color in cell
 ````
 NSArray *arr=[NSArray arrayWithObjects:@"1:40",@"2:40",@"DJ-IL",@"1",nil];
 ````
-###### Arr Element
+###### Array Element
 * 1 - start time
 * 2 - End time
 * 3 - Text to display on event
 * 4 - Color of event
+
+###### Dictionary Element
 
 ````
 someDictionary = @{@"0" : arr,@"2" : arr1,@"3" : arr2,@"4" : arr3};
