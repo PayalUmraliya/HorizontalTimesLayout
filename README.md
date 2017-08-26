@@ -10,6 +10,11 @@ PROJECT CONTAINS IDEA TO DEVELOP A CALENDAR TYPE LAYOUT USING TABLEVIEW IN WHICH
 
 <img src="https://github.com/PayalUmraliya/HorizontalTimesLayout/blob/master/pucalender.gif" width="320" height="564"/>
 
+###### LICENSE
+
+[The MIT License](LICENSE.md)
+
+
 ###### USAGE
 
 ````
