@@ -6,6 +6,10 @@ PROJECT CONTAINS IDEA TO DEVELOP A CALENDAR TYPE LAYOUT USING TABLEVIEW IN WHICH
 
 PROJECT EXAMPLE SHOWING LIST OF RESOURCES USAGE IN 24 HOUR FORMAT.
 
+Sample project output
+
+<img src="https://github.com/PayalUmraliya/HorizontalTimesLayout/blob/master/pucalender.gif" width="320" height="564"/>
+
 USAGE
 
 ````
@@ -74,6 +78,4 @@ To customize UI for event use below method
 }
 ````
 
-Sample project output
-
-<img src="https://github.com/PayalUmraliya/HorizontalTimesLayout/blob/master/pucalender.gif" width="320" height="564"/>
+:)
