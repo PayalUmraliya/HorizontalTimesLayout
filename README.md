@@ -43,20 +43,19 @@ value - event data
 ````
 - (UICollectionViewCell *)collectionView:(UICollectionView *)cv cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-CellHorizontalScroll *hsc =[cv dequeueReusableCellWithReuseIdentifier:@"CellHorizontalScroll"
+        CellHorizontalScroll *hsc =[cv dequeueReusableCellWithReuseIdentifier:@"CellHorizontalScroll"
                                                                                  forIndexPath:indexPath];
-          //  [hsc setBackgroundColor:[UIColor whiteColor]];
-            [hsc setUpCellWithArray:[someDictionary objectForKey:[NSString stringWithFormat:@"%ld",(long)cv.tag]]];
-            hsc.cellDelegate = self;
-            [hsc.scroll setFrame:CGRectMake(hsc.scroll.frame.origin.x, hsc.scroll.frame.origin.y, hsc.frame.size.width, 70 )];
-           hsc.scroll.contentOffset= CGPointMake(self.collEventTimeHeader.contentOffset.x,0.0);
-            return hsc;
-    }
+        [hsc setBackgroundColor:[UIColor whiteColor]];
+        [hsc setUpCellWithArray:[someDictionary objectForKey:[NSString stringWithFormat:@"%ld",(long)cv.tag]]];
+        hsc.cellDelegate = self;
+        [hsc.scroll setFrame:CGRectMake(hsc.scroll.frame.origin.x, hsc.scroll.frame.origin.y, hsc.frame.size.width, 70 )];
+        hsc.scroll.contentOffset= CGPointMake(self.collEventTimeHeader.contentOffset.x,0.0);
+        return hsc;
 }
 
 ````
 
-This displat event call this method in collection view cell for row at index path delegate method
+This display event call this method in collection view cell for row at index path delegate method
 ````
 [hsc setUpCellWithArray:[someDictionary objectForKey:[NSString stringWithFormat:@"%ld",(long)cv.tag]]];
 ````
