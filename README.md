@@ -1,4 +1,4 @@
-# HorizontalTimesLayout
+# HorizontalCalendarLayout
 
 TO DISPLAY TIME SLOTS IN 24 HOUR FORMAT
 
