@@ -1,5 +1,9 @@
 # HorizontalCalendarLayout
 
+
+[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/PayalUmraliya/HorizontalTimesLayout/blob/master/LICENSE)
+
+
 TO DISPLAY TIME SLOTS IN 24 HOUR FORMAT
 
 PROJECT CONTAINS IDEA TO DEVELOP A CALENDAR TYPE LAYOUT USING TABLEVIEW IN WHICH IF REQUIREMENTS ARE  TO SHOW TIME IN HORIZONTAL LAYOUT AND EVENTS IN VERTICAL LAYOUT.
