@@ -1,4 +1,4 @@
-# HorizontalCalendarLayout
+# HorizontalTimesLayout
 
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/PayalUmraliya/HorizontalTimesLayout/blob/master/LICENSE)
