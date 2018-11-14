@@ -3,6 +3,7 @@
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/PayalUmraliya/HorizontalTimesLayout/blob/master/LICENSE)
 
+## SWIFT VERSION FOR THIS PROJECT - https://github.com/PayalUmraliya/HorizontalTimesLayout-Swift
 
 TO DISPLAY TIME SLOTS IN 24 HOUR FORMAT
 
